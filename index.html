@@ -116,14 +116,14 @@
 
     // Acción al hacer clic en SÍ
     yesBtn.addEventListener("click", () => {
-        card.innerHTML = `<h1>💖 Sabía que dirías que sí Te quiero 💖</h1>`;
+        card.innerHTML = `<h1>🩵  Sabía que dirías que sí Te quiero 🩵 </h1>`;
     });
 
     // Corazones animados
     function createHeart() {
         const heart = document.createElement("div");
         heart.classList.add("heart");
-        heart.innerHTML = "💖";
+        heart.innerHTML = "🩵 ";
         heart.style.left = Math.random() * window.innerWidth + "px";
         heart.style.fontSize = Math.random() * 20 + 15 + "px";
         heart.style.animationDuration = Math.random() * 3 + 4 + "s";
@@ -139,3 +139,4 @@
 
 </body>
 </html>
+
